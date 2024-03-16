@@ -44,4 +44,5 @@ body {
   font-family: 'Epilogue', sans-serif;
   font-weight: 400;
   font-size: var(--fs-md);
+  color: var(--clr-primary-500);
 }
