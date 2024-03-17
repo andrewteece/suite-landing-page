@@ -233,7 +233,7 @@ header {
   display: grid;
   grid-template-rows:
     minmax(min-content, 11.5rem)
-    minmax(min-content, 16.5rem) minmax(min-content, 40rem);
+    minmax(min-content, 16.5rem) minmax(min-content, 30rem);
   overflow: hidden;
 }
 
@@ -272,8 +272,23 @@ header {
 
 .quote__content--text {
   font-size: var(--fs-md);
-  letter-spacing: 0.9px;
-  padding-inline: 1rem;
+  color: var(--clr-primary-300);
+  letter-spacing: 0.09px;
+  padding-inline: 0.4rem;
+}
+
+.quote__content--name {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  color: var(--clr-primary-100);
+  text-transform: uppercase;
+  letter-spacing: -0.18px;
+}
+
+.quote__content--position {
+  font-size: var(--fs-base);
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
 }
 
 /* FOOTER */
