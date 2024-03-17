@@ -18,33 +18,54 @@
       <button class="btn btn--light" type="button">Request Beta Access</button>
     </header>
     <main>
-      <section>
-        <img src="./assets/pattern-curved-line-1.svg" alt="" />
-        <h1>A super solution to your business</h1>
-        <p>
+      <section class="hero">
+        <img
+          class="hero__img"
+          src="./assets/pattern-curved-line-1.svg"
+          alt=""
+        />
+        <h1 class="hero__title">
+          A <span>super solution</span> for your <span>business.</span>
+        </h1>
+        <p class="hero__text">
           Our marketing and sales automations help you scale your outreach to
           get more leads for your company.
         </p>
         <button class="btn btn--dark" type="button">Request Beta Access</button>
         <img src="assets/image-hero-landscape.png" alt="" />
-        <p>2K+</p>
-        <p>companies</p>
-        <p>8</p>
-        <p>languages</p>
-        <p>1.2M</p>
-        <p>leads</p>
+        <div class="hero__stats">
+          <p class="hero__stats--count">2K<span>+</span></p>
+          <p class="hero__stats--text">companies</p>
+          <p class="hero__stats--count">8</p>
+          <p class="hero__stats--text">languages</p>
+          <p class="hero__stats--count">1.2M</p>
+          <p class="hero__stats--text">leads</p>
+        </div>
       </section>
-      <section>
-        <img src="./assets/image-jeremy-small.webp" alt="" />
-        <img src="./assets/pattern-curved-line-2.svg" alt="" />
-        <h2>It just works.</h2>
-        <p>
-          “I really like how it is an all-in-one solution that handle many of
-          the tasks that you would normally need separate tools to do the same
-          job. This thing is a miracle worker.”
-        </p>
-        <p>jeremy robinson</p>
-        <p>cmo, fylo</p>
+      <section class="quote quote__grid">
+        <picture class="quote__img">
+          <source
+            srcset="./assets/image-jeremy-large@2x.webp"
+            media="(min-width: 768px)"
+          />
+          <img src="./assets/image-jeremy-small@2x.webp" alt="" />
+        </picture>
+
+        <section class="quote__content flow--content">
+          <div class="quote__pattern">
+            <img src="./assets/pattern-curved-line-2.svg" alt="" />
+          </div>
+          <h2 class="quote__content--title"><span>It just</span> works.</h2>
+          <p class="quote__content--text">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <div>
+            <p>jeremy robinson</p>
+            <p>cmo, fylo</p>
+          </div>
+        </section>
       </section>
       <footer>
         <img src="./assets/logo.svg" alt="" />
