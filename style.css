@@ -320,3 +320,7 @@ footer img {
   gap: 2rem;
   margin-bottom: 3rem;
 }
+
+.social__links--item a:hover {
+  color: var(--clr-primary-500);
+}
