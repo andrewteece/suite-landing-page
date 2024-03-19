@@ -106,8 +106,8 @@ body {
 }
 
 .wrapper {
-  max-width: 75rem;
-  margin: auto;
+  max-width: 68.75rem;
+  margin: 0 auto;
 }
 
 /* UTILITY */
@@ -315,12 +315,15 @@ footer img {
   align-items: center;
 }
 
-.social__links {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 3rem;
+.footer p {
+  color: var(--clr-primary-500);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.083px;
 }
 
-.social__links--item a:hover {
-  color: var(--clr-primary-500);
+.social__links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
