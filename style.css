@@ -217,6 +217,7 @@ header {
   font-size: var(--fs-xxlg);
   font-weight: 700;
   color: var(--clr-primary-800);
+  text-align: center;
 }
 
 .hero__stats--count span {
@@ -228,6 +229,16 @@ header {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero__stats {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7rem;
+    padding-inline: 2.5rem;
+  }
 }
 
 /* QUOTE */
